@@ -1,1 +1,5 @@
-
+ select multiple contiguous cols/rows: 
+    Select column specific column, and use SHIFT+ right arrow to reach the desire column
+    Ex
+      want to select column A to column E. Do this by
+      Select column A then push SHIFT+ right arrow to reach column E
