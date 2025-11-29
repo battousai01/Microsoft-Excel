@@ -11,3 +11,9 @@ select multiple non-contiguous cols/rows:
       want to select column A and column E. Do this by
       Select column A then hold CTRL and select column E 
      
+select the entire worksheet:
+   Click the corner button (small grey triangle in top left corner of the worksheet).
+
+
+ select all your data: 
+   Select any cell in the data, then press CTRL+A.
