@@ -3,3 +3,11 @@
     Ex
       want to select column A to column E. Do this by
       Select column A then push SHIFT+ right arrow to reach column E
+ 
+
+select multiple non-contiguous cols/rows: 
+   Select specific column , then hold CTRL and select another desire column 
+   Ex
+      want to select column A and column E. Do this by
+      Select column A then hold CTRL and select column E 
+     
