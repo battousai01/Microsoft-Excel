@@ -1,1 +1,10 @@
-
+Fill all width column with header
+  1.Click the Select All button
+  (the blank square at the top-left corner of the sheet, between row 1 and column A)
+  — or press Ctrl + A twice.
+  
+  2.Go to the Home tab.
+  
+  3.In the Cells group, click Format.
+  
+  4.Select AutoFit Column Width.
