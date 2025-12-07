@@ -1,13 +1,15 @@
-การ remove duplicate ตัว excel จะ remove ค่าที่ duplicate ในแต่ละ column เท่านั้น จะไม่ remove ค่าที่ duplicate ในแต่ละ row 
-จากไฟล์ book1 ใน row ที่ 2 จะมีค่าที่ซ้ำกัน แต่ excel จะไม่ remove ค่าเหล่านั้นเนื่องจาก  ตัว excel จะ remove ค่าที่ duplicate ในแต่ละ column เท่านั้น
-โดยใน column A จะมีค่าที่ซ้ำกันคือ A ใน column B จะมีค่าที่ซ้ำกันคือ H ใน column A จะมีค่าที่ซ้ำกันคือ A หากต้องการ remove ค่าเหล่านี้จะต้องทำการเลือกทีละ column 
-แล้วจึง remove duplicate โดยใช้คำสั่ง
 
-  -  เลือก DATA
-      -  เลือก remove duplicate
-      -  tick หัวข้อ My data has header
-      -  เลือก unselect all
-        -  tick หัวข้อ column ที่ต้องการ remove duplicate (A)
-        -  กด ok(B)
-
-        ทำคำสั่งข้อ A และ B ซ้ำทีละ column เพื่อ remove duplicate ในแต่ละ column
+Method 1: Using "Remove Duplicates" Button (Most Common)
+Steps:
+Select the range of your data
+(or press Ctrl + A to select all)
+Go to the Data tab
+Click Remove Duplicates
+A window appears → choose:
+Which columns Excel should check for duplicates
+(e.g., only “ID” or multiple columns together)
+Click OK
+Excel removes duplicates and shows how many were deleted.
+📌 Notes:
+Selecting multiple columns means Excel will remove a row only if all selected columns match.(remove เฉพาะค่าที่ซ้ำกันในทุก row และ column) ไฟล์ book1 remove ค่า 5 ใน row 3 ตั้งแต่ column A - E
+Selecting one column means duplicate values in that column are removed regardless of other columns.
