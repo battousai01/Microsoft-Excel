@@ -23,3 +23,6 @@ Selecting one column means duplicate values in that column are removed regardles
   Only column Group
         -remove ค่า 5 ใน row 3 - 4 ตั้งแต่ column A - E 
         เนื่องจาก ค่า 5 ใน row 3 - 4 ของ column B ไปซ้ำกับค่า 5 ของ column อื่นๆทั้งหมด (ซ้ำกับค่า 5 ใน column A และ C - E)
+  Only column ฺีรสะ
+        -remove ค่า 5 ใน row 3  ตั้งแต่ column A - E 
+        เนื่องจาก ค่า 5 ใน row 3  ของ column C ไปซ้ำกับค่า 5 ของ column อื่นๆทั้งหมด (ซ้ำกับค่า 5 ใน column A - B และ D - E)
