@@ -16,6 +16,7 @@ test range
   -  A1:E5 (select start at column A row 1 to column E row 5 ) 
 📌 Notes:
 Selecting multiple columns means Excel will remove a row only if all selected columns match.(remove เฉพาะค่าที่ซ้ำกันในทุก row และ column) ไฟล์ book1 remove ค่า 5 ใน row 3 ตั้งแต่ column A - E
+  เนื่องจากใน row ที่ 2 ของ column A-E มีค่า 5 อยู่ ซึ่งซ้ำกับ row ที่ 1 ของ column A - E ดังนั้น row 2 คือ row ที่ duplicate ดังนั้น excel จึง remove ตัว row 2  
 Selecting one column means duplicate values in that column are removed regardless of other columns.
   Only column Department
         -remove ค่า 5 ใน row 3 - 5 ตั้งแต่ column A - E 
@@ -26,3 +27,6 @@ Selecting one column means duplicate values in that column are removed regardles
   Only column ฺีรสะ
         -remove ค่า 5 ใน row 3  ตั้งแต่ column A - E 
         เนื่องจาก ค่า 5 ใน row 3  ของ column C ไปซ้ำกับค่า 5 ของ column อื่นๆทั้งหมด (ซ้ำกับค่า 5 ใน column A - B และ D - E)
+
+Selecting Built and Supply
+        -remove 
