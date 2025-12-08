@@ -20,7 +20,7 @@ Selecting multiple columns means Excel will remove a row only if all selected co
 Selecting one column means duplicate values in that column are removed regardless of other columns.
   Only column Department
         -remove ค่า 5 ใน row 3 - 5 ตั้งแต่ column A - E 
-        เนื่องจาก ค่า 5 ใน row 3 - 5 ของ column A ไปซ้ำกับค่า 5 ของ column อื่นๆทั้งหมด (ซ้ำกับค่า 5 ใน column B - E)
+        เนื่องจาก ค่า 5 ใน row 3  ของ column A ไปซ้ำกับค่า 5 ของ column อื่นๆทั้งหมด (ซ้ำกับค่า 5 ใน column B - E)
   Only column Group
         -remove ค่า 5 ใน row 3 - 4 ตั้งแต่ column A - E 
         เนื่องจาก ค่า 5 ใน row 3 - 4 ของ column B ไปซ้ำกับค่า 5 ของ column อื่นๆทั้งหมด (ซ้ำกับค่า 5 ใน column A และ C - E)
@@ -29,4 +29,7 @@ Selecting one column means duplicate values in that column are removed regardles
         เนื่องจาก ค่า 5 ใน row 3  ของ column C ไปซ้ำกับค่า 5 ของ column อื่นๆทั้งหมด (ซ้ำกับค่า 5 ใน column A - B และ D - E)
 
 Selecting Built and Supply
-        -remove 
+        -remove ค่า 5 ใน row 3 ตั้งแต่ column A - E
+        เนื่องจาก ค่า 5 ใน row 3  ของ column Built และ Supply ไปซ้ำกับค่า 5 ของ column อื่นๆทั้งหมด (ซ้ำกับค่า 5 ใน column B - E)
+        -remove ค่า 2 ใน row 6 ตั้งแต่ column A - E
+        เนื่องจาก ค่า 2 ใน row 6  ของ column  Built และ Supply ไปซ้ำกับค่า 2 ของ column ของ Built และ Supply
